@@ -6,7 +6,7 @@ A simple implementation of GNU shell commands: Nm and Objdump.
 - Or for programmers working on binary security.
 
 
-# NM
+# Nm command
 GNU nm lists the symbols from object files objfile…. If no object files are listed as arguments, nm assumes the file a.out.
 
 For each symbol, nm shows:
@@ -17,7 +17,7 @@ For each symbol, nm shows:
     
 See man nm for more informations.
 
-# OBJDUMP
+# Objdump command
 GNU objdump displays information about one or more object files. 
 
 - Display summary information from the overall header of each of the objfile files
