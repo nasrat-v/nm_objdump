@@ -1,7 +1,10 @@
 # nm_objdump
 A simple implementation of GNU shell commands: Nm and Objdump.
 
-These are very useful tools for programmers working on compiling tools, or for programmers working on binary security.
+- These commands disassemble executable files, relocatable object files, core files, and shared objects
+- These are very useful tools for programmers working on compiling tools
+- Or for programmers working on binary security.
+
 
 # NM
 GNU nm lists the symbols from object files objfile…. If no object files are listed as arguments, nm assumes the file a.out.
@@ -21,6 +24,12 @@ The options control what particular information to display. This information is 
 the compilation tools, as opposed to programmers who just want their program to compile and work.
     
  See man objdump for more informations.
+ 
+ # Format
+ These tools use the C ELF structure (Executable and Linking Format). See man elf.
+ 
+ 32 bits and 64 bits architecture are both supported.
+ 
 
 # Compile
     make
