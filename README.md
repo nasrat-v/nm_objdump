@@ -32,5 +32,36 @@ x86-64 and i386 architecture are both supported.
  
 
 # Compile
+compiling:
+    
     make
+    
+cleaning obj files:
 
+    make clean
+    
+cleaning binary files:
+
+    make fclean
+    
+    
+cleaning all and compile:
+
+    make re
+    
+# How to use it
+### For nm:
+
+    ./my_nm YOUR_OBJ_FILE
+    
+or if you have a a.out file
+
+    ./my_nm
+    
+### For objdump:
+
+    ./my_objdump YOUR_OBJ_FILE
+    
+or if you have a a.out file
+
+    ./my_objdump
