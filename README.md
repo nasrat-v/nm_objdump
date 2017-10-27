@@ -1,6 +1,7 @@
 # nm_objdump
 A simple implementation of GNU shell commands: Nm and Objdump.
-There are very useful tool for programmers who are working on compilation tools, or for programmers who are working on binary security.
+
+These are very useful tools for programmers working on compiling tools, or for programmers working on binary security.
 
 # NM
 GNU nm lists the symbols from object files objfile…. If no object files are listed as arguments, nm assumes the file a.out.
